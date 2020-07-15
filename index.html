@@ -5,12 +5,16 @@
 		<title>Paulo Favato</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="shortcut icon" href="assets/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/font-awesome.css">
-		<link rel="stylesheet" href="css/flexslider.css">
 		<link rel="stylesheet" href="css/screen.css">
-		<link rel="stylesheet" href="css/fix-1-1.css">
+		<link rel="stylesheet" type="text/css" href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css" />
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
 		<!--[if lt IE 9]>
@@ -36,142 +40,40 @@
 			})(document);
 			smartlook('init', 'a98d023b68b207efed2c7dee7ba0691ad80ec065');
 		</script>
-
-		<style>
-			.btn-social {font-size: 45px !important; color: white !important;}
-			a {cursor: pointer !important;}
-		</style>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/easings.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/scrolloverflow.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+		<script src="js/libs/bootstrap.min.js"></script>		
 	</head>
-
-	<body data-spy="scroll" data-target="#main-nav" data-offset="200">
-
-		<!-- MAIN NAV -->
-		<div id="main-nav" class="navbar navbar-fixed-top">
-			<div class="container">
-
-				<div class="navbar-header">
-
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-
-					<!-- ======= LOGO ========-->
-					<a class="navbar-brand scrollto" href="#home">Paulo Favato<br><span>Designer</span></a>
-					<!-- <a class="navbar-brand scrollto ir-logo" href="#">Paulo Favato<br><span>UX/UI Designer</span></a> -->
-
+	<body>
+		<div id="fullpage">
+			<div class="section section--open">
+				<img src="assets/images/logo.svg" width="200">
+			</div>
+			<div class="section section--contact">
+				<div class="section--contact_header">
+					<h1>Welcome</h1>
+					<h2>I worked for more than 10 years in the area of graphic design in my country (Brazil) and now I am looking for a job opportunity here where I can cooperate and show my skills, willing to perform perfectly the tasks assigned to me.</h2>
 				</div>
-
-			</div><!--End container -->
-
-		</div><!--End main-nav -->
-
-		<!-- ABOUT -->
-		<section id="about">
-
-			<div class="container">
-
-				<div class="row">
-					<div class="col-sm-4 col-sm-offset-1 scrollimation fade-right">
-						<img class="img-responsive img-circle img-center" src="assets/about_new2019.jpg" alt="">
-					</div>
-					<div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
-						<h1>Hello</h1>
-
-						<p>With experience for over 10 years, with a background at <strong>Escola
-							Panamericana de Arte e Design</strong>, I have extensive experience in print media, branding and website and blog development. I am passionate about design and new technologies, problem solving, speed and objectivity.</p>
-
-							<a class="btn btn-social" title="github" href="https://github.com/paulofavato" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-							<a class="btn btn-social" title="Behance" href="https://www.behance.net/paulofavato" target="_blank"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
-							<a class="btn btn-social" title="Linkedin" href="https://www.linkedin.com/in/paulo-favato-9b93b023" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-
-					</div>
-				</div><!--End row -->
-
-			</div><!--End container -->
-
-		</section><!--End about section -->
-
-		<!-- Experience -->
-		<section id="services">
-
-			<div class="container">
-
-				<h1 class="section-title scrollimation scale-in"><span>Professional Experience</span> <i class="icon-cog"></i></h1>
-
-				<div class="row line box-line visible-md visible-lg experience">
-
-					<div class="col-md-3 relative">
-						<span class="spot"></span>
-						<div class="box-details details scrollimation scale-in">
-							<span class="arrow"></span>
-							<div class="company">
-								<a target="_blank"><img src="assets/images/cuca.png" style="text-align: left;"></a>
-							</div>
-							<p class="no-margin"><strong>Art assistant / Front-End</strong></p>
-							<strong>November 2006 - July 2009</strong><br>
-							Assisting in the development of websites and graphic materials.
-						</div>
-					</div>
-
-					<div class="col-md-3 relative">
-						<span class="spot"></span>
-						<div class="box-details-top details scrollimation scale-in">
-							<span class="arrow"></span>
-							<div class="company">
-								<a href="http://www.tracersoft.com.br" target="_blank" title="Visite o site da Tracersoft"><img src="assets/images/tracersoft.png" style="text-align: left;"></a>
-							</div>
-							<p class="no-margin"><strong>Designer / Front-End</strong></p>
-							<strong>July 2009 - October 2015</strong><br>
-							Criação de Layouts para sites e sistemas, identidade visual e Front-end.
-						</div>
-					</div>
-
-					<div class="col-md-3 relative">
-						<span class="spot"></span>
-						<div class="box-details details scrollimation scale-in">
-							<span class="arrow"></span>
-							<div class="company">
-								<a href="http://www.ecostage.com.br" target="_blank" title="Visite o site da EcoStage"><img src="assets/images/ecostage.jpg" style="text-align: left;"></a>
-							</div>
-							<p class="no-margin"><strong>UX / Front-End</strong></p>
-							<strong>Novembro 2015 - Novembro 2018</strong><br>
-							Development of projects based on Design Thinking, mainly focused on sustainability.
-						</div>
-					</div>
-
-					<div class="col-md-3 relative">
-						<span class="spot"></span>
-						<div class="box-details-top details scrollimation scale-in">
-							<span class="arrow"></span>
-							<div class="company">
-								<h2 class="no-margin freelancer">Freelancer</h2>
-							</div>
-							<p class="no-margin"><strong>Contact me</strong></p>
-							I'm ready to show you the ideal look for your product or service.<br>
-							<strong><a href="#contact" class="scrollto">Click here and leave your message.</a></strong>
-						</div>
-					</div>
-
-				</div><!--End row -->
-
-				<br clear="both">
-
-			</div><!--End container -->
-
-		</section><!--End services section-->
-
-		<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
-		<script>window.jQuery || document.write('<script src="js/libs/jquery-1.8.2.min.js">\x3C/script>')</script>
-		<script src="js/libs/bootstrap.min.js"></script>
-		<script src='js/jquery.scrollto.js'></script>
-		<script src='js/jquery.flexslider.min.js'></script>
-		<script src='js/twitterFetcher_v10_min.js'></script>
-		<script src='js/jquery.masonry.min.js'></script>
-		<script src="js/waypoints.min.js"></script>
-		<script src="js/jquery.easypiechart.js"></script>
-		<script src="js/jquery.backstretch.min.js"></script>
-		<script src="js/fix-1-1.js"></script>
-		<script src="js/contact.js"></script>
-		<script src="js/designr.js"></script>
+				<div class="section--contact_links">
+					<a href="https://www.facebook.com/paulofavato0" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/PauloFavato" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+					<a href="https://www.instagram.com/paulofavatoriginal/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="https://github.com/pfgbp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+					<a href="https://www.behance.net/paulofavato" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
+					<a href="./assets/07-20.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+					<a title="Send me a email" href="mailto:favatorama@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+					autoScrolling:true,
+					scrollHorizontally: true
+				});
+			});
+		</script>
 	</body>
 </html>
